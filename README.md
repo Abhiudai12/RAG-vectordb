@@ -39,25 +39,22 @@ PINECONE_API_KEY: "your-pinecone-key"
 
 ---
 ##Notes
+
 Uses cosine similarity or dot-product (depending on embedding model).
 
 Supports metadata filtering and chunk size customization.
 
 Can be easily extended to support Hybrid Search (BM25 + Vector) or Streaming Chat interfaces.
+
 ---
-References
-🔗 Pinecone Documentation
+##  References
 
-🔗 LangChain Documentation
+- [📘 Pinecone Documentation](https://docs.pinecone.io/docs/overview)
+- [📘 LangChain Documentation](https://docs.langchain.com/)
+- [📘 OpenAI API Reference](https://platform.openai.com/docs)
+- [📘 Hugging Face Transformers](https://huggingface.co/docs/transformers/index)
+- [📘 Sentence Transformers (SBERT)](https://www.sbert.net/)
+- [📘 Retrieval-Augmented Generation (RAG) Paper – Facebook AI](https://arxiv.org/abs/2005.11401)
+- [📘 Vector Similarity Search Explained – Pinecone](https://www.pinecone.io/learn/vector-search/)
+- [📘 Hybrid Search (BM25 + Vector) – Pinecone Docs](https://docs.pinecone.io/docs/hybrid-search)
 
-🔗 OpenAI API Reference
-
-🔗 Hugging Face Transformers
-
-🔗 Sentence Transformers (SBERT)
-
-🔗 Retrieval-Augmented Generation (RAG) Paper
-
-🔗 Vector Similarity Search Explained
-
-🔗 Hybrid Search Overview (BM25 + Vectors)
